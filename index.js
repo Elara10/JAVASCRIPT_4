@@ -43,24 +43,24 @@ var marks={
     A:56,
     f:45
 }
-console.log(marks);
+// console.log(marks);
 
 //Booleans
 var a=true;
 var b=false;
-console.log(a,b);
+// console.log(a,b);
 
 
 
 //undefined
 
 var und;
-console.log(undefined)
+// console.log(undefined)
 
 
 //null
 var n=null;
-console.log(n);
+// console.log(n);
 
 
 /*
@@ -74,3 +74,60 @@ At a very high level,there are two types of data types in javascript
 
 
 var arr=[5,2,6,2]
+// console.log(arr)
+
+
+//Operators in Javascript
+
+//Arithmetic operators
+var a=100;
+var b=10;
+// console.log("The value of a+b is ",a+b);
+// console.log("The value of a-b is ",a-b);
+// console.log("The value of a*b is ",a*b);
+// console.log("The value of a/b is ",a/b);
+
+//Assignment Operators
+
+var c=b;
+// c+=2; c+2
+// c-=2;  c-2
+// c*=2;  c*2
+// c/=2;  c/2
+// console.log(c);
+
+
+//Comparison operators
+var x=34;
+var y=4;
+// console.log(x==y);
+// console.log(x<=y);
+// console.log(x>=y);
+// console.log(x>y);
+// console.log(x<y);
+
+
+
+
+//Logical operators
+
+//AND
+
+// console.log(true && true);
+// console.log(true && false);
+// console.log(false && true);
+// console.log(false && false);
+
+
+//OR
+
+// console.log(true || true);
+// console.log(true || false);
+// console.log(false || true);
+// console.log(false || false);
+
+
+ //NOT
+
+ console.log(!true);
+ console.log(!false);
